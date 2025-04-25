@@ -1,0 +1,41 @@
+.responsive-table{
+    width: 80%;
+    max-width: 650px;
+    margin: 40px auto;
+    text-align: center;
+    border: 2px solid #000;
+}
+td{
+    border:1px solid #000;
+    padding: 10px;
+
+}
+
+@media (max-width: 768px) {
+    .responsive-table{
+        width: 70%;
+        font-size: 14px;
+    }
+    td{
+        padding: 5px;
+    }
+}
+
+@media (max-width: 480px) {
+    .responsive-table{
+        font-size: 14px;
+    }
+   td{
+    padding: 3px;
+   }
+}
+
+.empty{
+    width: 300px !important;
+}
+.full{
+    width:500px ;
+}
+caption{
+    border: 1px double #000;
+}
