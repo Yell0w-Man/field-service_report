@@ -32,8 +32,7 @@ body {
        }
 
 .responsive-table{
-    width: 80%;
-    margin-top: 0;
+    width: 80;
     max-width: 700px;
     margin: 40px auto;
     border: 2px solid #000;
