@@ -21,7 +21,7 @@ body {
     @media (max-width: 768px) { /* For tablets and smaller devices */
         .caps {
             width: 70%; /* Adjust as needed for smaller screens */
-            top:9.5%;
+            top:10%;
         }
     }
 
@@ -86,3 +86,6 @@ td{
     width:500px ;
 }
 
+small{
+    margin: auto;
+}
